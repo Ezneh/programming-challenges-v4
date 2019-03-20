@@ -14,7 +14,7 @@ int main(string[] args)
     }
 
     // uppercase comes from std.ascii and is a string containing A-Z values
-    // lowercade contains a-z valuescd
+    // lowercade contains a-z values
     foreach(c; args[1])
     {
         if (c.isAlpha)
