@@ -13,6 +13,8 @@ int main(string[] args)
         return -1;
     }
 
+    // uppercase comes from std.ascii and is a string containing A-Z values
+    // lowercade contains a-z valuescd
     foreach(c; args[1])
     {
         if (c.isAlpha)
